@@ -49,7 +49,7 @@ export const gridItems = [
 
   {
     id: 5,
-    title: "Currently building a JS Animation library",
+    title: "Currently building a iSubscribe VTU platform",
     description: "The Inside Scoop",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
@@ -72,68 +72,68 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "3D Solar System Planets to Explore",
-    des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-    img: "/p1.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "/ui.earth.com",
+    title: "iSubscribe VTU platform with NextJS and supabase",
+    des: "Virtual Top up made easy with iSubscribe. Subscribe to your favorite plan with just a button click",
+    img: "/isubscribe.png",
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/git.svg", "/next.svg"],
+    link: "https://isubscribe.vercel.app",
   },
   {
     id: 2,
-    title: "Yoom - Video Conferencing App",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-    img: "/p2.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "/ui.yoom.com",
+    title: "Naijaschools",
+    des: "An all-in-one educational platform that encapsulates Nigerian Universities and their corresponding courses.",
+    img: "/naijaschools.png",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/git.svg", "/s.svg"],
+    link: "https://naijaschools.vercel.app",
   },
   {
     id: 3,
-    title: "AI Image SaaS - Canva Application",
-    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-    img: "/p3.svg",
+    title: "SubMe",
+    des: "A realtime utility payments solution",
+    img: "/p4.svg",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "/ui.aiimg.com",
+    link: "https://subme.matiecodes.tech",
   },
   {
     id: 4,
-    title: "Animated Apple Iphone 3D Website",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-    img: "/p4.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "/ui.apple.com",
+    title: "Young Start Academy",
+    des: "A simplified landing page for Young Start Academy.",
+    img: "/ysa.png",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/next.svg", "/gsap.svg"],
+    link: "https://young-start-academy.vercel.app",
   },
 ];
 
 export const testimonials = [
   {
     quote:
-      "Collaborating with Mathias was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Mathias' enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Mathias is the ideal partner.",
+      "Are you looking for a perfect model of your ideas in an expressive technology format? Mathias is the go-to developer and it won't be a regrettable decision allowing him to do your job for you.",
     name: "Olu Femi",
     title: "Director of AlphaStream Technologies",
   },
   {
     quote:
-      "Collaborating with Mathias was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Mathias's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Mathias is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Had a very slow site for a very long time, but the story changed when I reached out to Mathias to pull up a new site for me. I've secured positive reviews from my users.",
+    name: "Mike Samuel",
+    title: "Samuel Barbs - CEO",
+  },
+  {
+    quote:
+      "I love to work with Mathias, he gives you exactly what you want, and how you wish or want it to be and even more.",
+    name: "Stella Okon",
+    title: "CEO - Stella Perfumes",
   },
   {
     quote:
       "Collaborating with Mathias was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Mathias's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Mathias is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+    name: "Ladalo Daniel",
+    title: "CTO - Union Bank",
   },
   {
     quote:
-      "Collaborating with Mathias was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Mathias's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Mathias is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Mathias was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Mathias's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Mathias is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "He piqued my interest after his very first delivery, I will always recommend him.",
+    name: "Philomena Franklyn",
+    title: "Business Enthusiast",
   },
 ];
 
@@ -180,8 +180,8 @@ export const workExperience = [
   },
   {
     id: 2,
-    title: "Mobile App Dev - JSM Tech",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
+    title: "Mobile App Development - Law hub",
+    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native for Law.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp2.svg",
   },
@@ -205,13 +205,16 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
+    link: "https://github.com/balamathias"
   },
   {
     id: 2,
     img: "/twit.svg",
+    link: "https://x.com/matiecodes",
   },
   {
     id: 3,
     img: "/link.svg",
+    link: "#"
   },
 ];
